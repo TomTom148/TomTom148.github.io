@@ -4,8 +4,6 @@
     <title>Mein Referat ueber KI in der Industrie</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <script>
-        //Open Einfuerung by Start
-        document.getElementById("einfuehrung").click();
       function openTab(evt, tabName) {
         // Declare all variables
         var i, tabcontent, tablinks;
@@ -15,6 +13,9 @@
         for (i = 0; i < tabcontent.length; i++) {
           tabcontent[i].style.display = "none";
         }
+
+        //Open Einfuerung by Start
+        document.getElementById("einfuehrung").click();
 
         // Get all elements with class="tablinks" and remove the class "active"
         tablinks = document.getElementsByClassName("tablinks");
