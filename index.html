@@ -2,64 +2,55 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Mein Referat ueber KI in der Industrie</title>
+    <title>Mein Referat Ã¼ber KI in der Industrie</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="styles.css">
-    <script>
-        function openTab(evt, tabName) {
-            // Declare all variables
-            var i, tabcontent, tablinks;
-
-            // Get all elements with class="tabcontent" and hide them
-            tabcontent = document.getElementsByClassName("tabcontent");
-            for (i = 0; i < tabcontent.length; i++) {
-                tabcontent[i].style.display = "none";
-            }
-
-            // Get all elements with class="tablinks" and remove the class "active"
-            tablinks = document.getElementsByClassName("tablinks");
-            for (i = 0; i < tablinks.length; i++) {
-                tablinks[i].className = tablinks[i].className.replace(" active", "");
-            }
-
-            // Show the current tab, and add an "active" class to the button that opened the tab
-            document.getElementById(tabName).style.display = "block";
-            evt.currentTarget.className += " active";
-        }
-        function openLink() {
-
-        }
-        document.getElementById("einfuehrung").style.display = "block"
-    </script>
 </head>
-  <body>
-    <h1>Mein Referat ueber KI in der Industrie1</h1>
-    <div class="tab">
-        <button class="tablinks active" onclick="openTab(event, 'einfuehrung')">Einfuehrung</button>
-        <button class="tablinks" onclick="openTab(event, 'anwendung')">Anwendung von KI in der Industrie</button>
-        <button class="tablinks" onclick="openTab(event, 'beispiele')">Anwendungsbeispiele</button>
-        <button class="tablinks" onclick="openTab(event, 'game')">Game</button>
-        <!-- 
-        <button class="tablinks" onclick="document.location='https://tomtom148.github.io/AI-Game'">GameLink</button> 
-        -->
+<body>
+    <div class="container">
+        <h1 class="text-center">Mein Referat Ã¼ber KI in der Industrie</h1>
+        <div class="row">
+            <div class="col-md-3">
+                <h3>Inhaltsverzeichnis</h3>
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#einfuehrung">EinfÃ¼hrung</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#anwendung">Anwendung von KI in der Industrie</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#beispiele">Anwendungsbeispiele</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#game">Game</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://tomtom148.github.io/AI-Game" target="_blank">GameLink</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-9">
+                <div id="einfuehrung">
+                    <h2>EinfÃ¼hrung</h2>
+                    <p>In diesem Abschnitt erklÃ¤re ich, was KI ist und gegebe einen Ãœberblick Ã¼ber die Arten von KI-Systemen.</p>
+                </div>
+                <div id="anwendung">
+                    <h2>Anwendung von KI in der Industrie</h2>
+                    <p>In diesem Abschnitt bespreche ich die verschiedenen Anwendungen von KI in der Industrie und gehe auf die Vorteile und Herausforderungen ein.</p>
+                </div>
+                <div id="beispiele">
+                    <h2>Anwendungsbeispiele</h2>
+                    <p>In diesem Abschnitt gebe ich einige spezifische Beispiele fÃ¼r den Einsatz von KI in der industriellen Automatisierung und Produktion.</p>
+                </div>
+                <div id="game">
+                    <h2>Game</h2>
+                    <p>Das ist ein kleines KI-Game. Viel spass ^_~</p>
+                    <a href="https://tomtom148.github.io/AI-Game" title="Game" target="_blank">AI-Game</a>
+                </div>
+            </div>
+        </div>
     </div>
-    <div id="einfuehrung" class="tabcontent">
-        <h2>Einführung</h2>
-        <p>In diesem Abschnitt erkläre ich, was KI ist und gebe einen Überblick über die Arten von KI-Systemen.</p>
-    </div>
-    <div id="anwendung" class="tabcontent">
-        <h2>Anwendung von KI in der Industrie</h2>
-        <p>In diesem Abschnitt bespreche ich die verschiedenen Anwendungen von KI in der Industrie und gehe auf die Vorteile und Herausforderungen ein.</p>
-    </div>
-    <div id="beispiele" class="tabcontent">
-        <h2>Anwendungsbeispiele</h2>
-        <p>In diesem Abschnitt gebe ich einige spezifische Beispiele für den Einsatz von KI in der industriellen Automatisierung und Produktion.</p>
-    </div>
-    <div id="game" class="tabcontent">
-        <h2>Game</h2>
-        <p>Das ist ein kleines KI-Game. Viel spass ^_~</p>
-        <a href="https://tomtom148.github.io/AI-Game" title="Game">AI-Game</a>
-    </div>
-  </body>
+</body>
 </html>
