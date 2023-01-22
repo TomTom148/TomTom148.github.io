@@ -25,16 +25,19 @@
             document.getElementById(tabName).style.display = "block";
             evt.currentTarget.className += " active";
         }
+        function openLink() {
+
+        }
+        document.getElementById("einfuehrung").style.display = "block"
     </script>
 </head>
   <body>
-    <h1>Mein Referat ueber KI in der Industrie6</h1>
+    <h1>Mein Referat ueber KI in der Industrie8</h1>
     <div class="tab">
         <button class="tablinks active" onclick="openTab(event, 'einfuehrung')">Einfuehrung</button>
         <button class="tablinks" onclick="openTab(event, 'anwendung')">Anwendung von KI in der Industrie</button>
         <button class="tablinks" onclick="openTab(event, 'beispiele')">Anwendungsbeispiele</button>
-        <button class="tablinks" onclick="openTab(event, 'game')">Game</button>
-        <input type=button onClick="parent.location='index.html'"value='click here'>
+        <button class="tablinks" onclick="document.location='https://tomtom148.github.io/AI-Game'">GameLink</button>
     </div>
     <div id="einfuehrung" class="tabcontent">
         <h2>Einführung</h2>
