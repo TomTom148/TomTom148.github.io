@@ -28,11 +28,11 @@
             // Show the current tab, and add an "active" class to the button that opened the tab
             document.getElementById(tabName).style.display = "block";
             evt.currentTarget.className += " active";
-        }
-        function openLink() {
 
+            // Opening the first tab (Einfuehrung) by default
+            document.getElementById("einfuehrung").style.display = "block"
+            document.getElementById("einfuehrung").click()
         }
-        document.getElementById("einfuehrung").style.display = "block"
     </script>
 </head>
 <body>
