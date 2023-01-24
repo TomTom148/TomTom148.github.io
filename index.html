@@ -33,11 +33,11 @@
             evt.currentTarget.className += " active";
         }
         function changeLanguage(language) {
-            document.getElementById("content").innerHTML = language === "de" ? "Hallo Welt!" : "Hello World!";
+            document.getElementById("header").innerHTML = language === "de" ? "Mein Referat über KI in der Industrie" : "My Presentation about AI";
     </script>
 </head>
 <body>
-    <h1>Mein Referat über KI in der Industrie1</h1>
+    <h1 id="header">Mein Referat über KI in der Industrie</h1>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">Inhaltsverzeichnis</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
